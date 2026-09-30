@@ -21,4 +21,4 @@ audit = pd.DataFrame({
     "missing_percent": (df.isnull().mean() * 100).round(2),
 })
 print(audit[audit.missing_count > 0])
-print("Exact Duplicated Rows:" , df.duplicated().sum())
+print("Exact Duplicated Rows:" , df.duplicated().sum())  
